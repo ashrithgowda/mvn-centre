@@ -3,8 +3,7 @@ name: Deploy to central repositories
 on:
   push:
     tags:
-    - '*'
-    branches: [ "main" ]
+      - '*'
 
 jobs:
   publish:
